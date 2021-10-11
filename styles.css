@@ -1,0 +1,142 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.black-empty {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+}
+
+.nav-icon-box {
+    display: flex;
+    background-color: #272a31;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-icon-box ul {
+    list-style-type: none;
+    margin: 0 10%;
+}
+
+.nav-icon-box li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-icon-box a {
+    font-family: cocogoose, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 1% 10% 1% 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 0 0 60px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.logo {
+    margin: 1% 10%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.list-items a {
+    font-family: cocogoose, sans-serif;
+    font-size: 12px;
+    color: #d3d3d3;
+}
+
+.list-items1 a {
+    font-family: cocogoose, sans-serif;
+    font-size: 12px;
+    color: #ec5242;
+}
+
+.campaign a {
+    border: 3px solid #ec5242;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.home-main {
+    background-color: #ececec;
+    margin: 0;
+    padding: 0;
+}
+
+.main-cont {
+    padding: 8% 10%;
+}
+
+.main-cont h1 {
+    font-family: cocogoose, sans-serif;
+    font-size: 48px;
+    margin: 0;
+    padding: 10px 0;
+    color: #ec5242;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.main-cont-p1 {
+    font-family: lato, sans-serif;
+    font-size: 36px;
+    color: #ec5242;
+    margin: 0;
+    padding: 0;
+}
+
+.main-cont-p2 {
+    font-family: cocogoose, sans-serif;
+    font-size: 12px;
+    color: #272a31;
+    width: 45%;
+    margin: 1rem 0;
+}
+
+.main-cont h4 {
+    font-family: cocogoose, sans-serif;
+    color: #272a31;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.main-cont-p3 {
+    font-family: lato, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
