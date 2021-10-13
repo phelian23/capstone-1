@@ -17,6 +17,10 @@ Building an online website for a conference
 
 https://phelian23.github.io/capstone-1/
 
+## Page presentation video
+
+https://www.loom.com/share/fb274141de024ae881fbf8e0af9beccb
+
 ## Getting Started
 
 > To get a local copy follow the following steps:
