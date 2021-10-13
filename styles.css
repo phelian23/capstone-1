@@ -9,7 +9,6 @@ body {
   display: flex;
   background-color: #272a31;
   width: 100%;
-  height: 30px;
   margin: 0;
   justify-content: flex-end;
   align-items: center;
@@ -68,8 +67,10 @@ body {
 
 .logo {
   margin: 1% 10%;
-  height: 7vh;
-  width: 15vw;
+}
+
+.logo img {
+  width: 100px;
 }
 
 .list-items a {
@@ -93,7 +94,7 @@ body {
 }
 
 .home-main {
-  background: url(images/platform.jpg);
+  background: url(images/unnamed-4.jpg);
   background-repeat: repeat-x;
   margin: 0;
   padding: 0;
@@ -101,7 +102,7 @@ body {
 
 .main-cont {
   padding: 8% 10%;
-  background: rgba(230, 222, 222, 0.8);
+  background: rgba(230, 222, 222, 0.6);
 }
 
 .main-cont h1 {
@@ -153,7 +154,7 @@ body {
 }
 
 .about-main {
-  background: url(images/platform23.jpg);
+  background: url(images/unnamed-4.jpg);
   background-repeat: repeat-x;
   margin: 0;
   padding: 0;
@@ -161,7 +162,7 @@ body {
 
 .about-main-cont {
   padding: 8% 10%;
-  background: rgba(230, 222, 222, 0.9);
+  background: rgba(230, 222, 222, 0.8);
 }
 
 .about-main-cont h1 {
@@ -328,7 +329,7 @@ body {
   margin: 0;
 }
 
-.feature-speaker h1 {
+.feature-speaker-h3 {
   font-family: lato, sans-serif;
   font-weight: bold;
   color: #272a31;
@@ -384,8 +385,8 @@ body {
 
 .about-footer {
   display: flex;
-  padding: 7vh 25%;
-  justify-content: space-around;
+  padding: 7vh 0;
+  justify-content: center;
   align-items: center;
   background-color: #272a31;
 }
@@ -405,9 +406,13 @@ body {
 
 .footer {
   display: flex;
-  margin: 7vh 35%;
-  justify-content: space-around;
+  margin: 7vh 0;
+  justify-content: center;
   align-items: center;
+}
+
+.footer-text {
+  margin-left: 5%;
 }
 
 .footer-p1 {
@@ -457,6 +462,10 @@ body {
   width: 40%;
   padding-left: 10%;
   padding-top: 4vh;
+}
+
+.about-minor {
+  border-bottom: 0.5px solid #d3d3d3;
 }
 
 .about-minor-h3 {
@@ -560,8 +569,7 @@ body {
     height: 100vh;
   }
 
-  .menu-open .nav-icon-box,
-  .menu-open .logo {
+  .menu-open .nav-icon-box {
     display: none;
   }
 
@@ -584,8 +592,8 @@ body {
     align-items: flex-start;
   }
 
-  .menu-open .nav-items {
-    margin: 12% 0;
+  .menu-open .logo {
+    margin-top: 15%;
   }
 
   .sponsor li {
@@ -705,14 +713,25 @@ body {
 
   .footer img {
     margin-right: 5%;
+    width: 120px;
   }
 
   .about-footer {
-    padding: 4vh 5%;
+    margin: 0 15%;
+    background: #fff;
   }
 
   .about-footer img {
-    width: 130px;
+    margin-right: 5%;
+    width: 120px;
+  }
+
+  .about-footer-p1 {
+    color: #272a31;
+  }
+
+  .about-footer-p2 {
+    color: #272a31;
   }
 
   .about-sub {
@@ -741,5 +760,9 @@ body {
   .about-cont2 {
     width: auto;
     margin: 3%;
+  }
+
+  .about-minor-p {
+    margin: 0 7%;
   }
 }

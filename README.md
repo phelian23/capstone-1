@@ -15,6 +15,7 @@ Building an online website for a conference
 
 ## Application Page url
 
+https://phelian23.github.io/capstone-1/
 
 ## Getting Started
 
@@ -44,7 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to Cindy Shin whose original design idea was used.
 - Inspiration
 - etc
 
