@@ -3,7 +3,7 @@
 # capstone-1
 Building an online website for a conference
 
-![screenshot](./images/2021-10-12.png)
+![screenshot](./images/2021-10-15.png)
 
 .
 
